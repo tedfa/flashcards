@@ -7,3 +7,15 @@ print("\n")
 
 print("You selected, ")
 print(item)
+
+
+def new_project():
+    proj_name = input("Name your project")
+
+
+
+def open_proj():
+
+
+def add_card():
+    
