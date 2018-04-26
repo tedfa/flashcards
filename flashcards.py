@@ -1,7 +1,7 @@
 import yaml
 
 def yaml_loader(filepath):
-    with open(filepath, r) as file_descriptor:
+    with open(filepath, "r") as file_descriptor:
         data = yaml.load(file_descriptor)
         return data
 
@@ -11,21 +11,16 @@ def yaml_dump(filepath, data):
 
 print("Welcome to Flashfacts!")
 print("\n")
-print("To start new project press 1")
-print("to open existing project press 2")
-item = input(" ")
-print("\n")
-
-print("You selected, ")
-print(item)
+filepath = input("What is the name of the card pack you wish to study? ")
 
 
-def new_project():
-    proj_name = input("Name your project")
+data = yaml_loader(filepath)
+for x in data:
+    print(x)
 
 
 
-def open_proj():
 
-
-def add_card():
+# def open_proj():
+#
+#

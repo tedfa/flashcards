@@ -1,0 +1,4 @@
+questions:
+    What port does HTTP use?: 80
+    What port does SSH use?: 22
+    What port does RDP use?: 3389
