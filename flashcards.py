@@ -29,7 +29,17 @@ for values in data.values():
 for items in data:
     question_list.append(items)
 
-print(question_list)
+# print(question_list)
 print(ans_list)
+x = 0
+#input(question_list[x])
 
-
+for i in range(len(question_list)):
+    answer = int(input(question_list[i]))
+    print(type(answer))
+    print(answer)
+    if answer == ans_list[i]:
+        print("correct")
+    else:
+        print("incorrect")
+        print(ans_list[i])
