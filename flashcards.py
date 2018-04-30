@@ -1,4 +1,5 @@
 import yaml
+import random
 
 def yaml_loader(filepath):
     with open(filepath, "r") as file_descriptor:
@@ -9,37 +10,56 @@ def yaml_dump(filepath, data): # Don't actually need this function
     with open(filepath, "w") as file_descriptor:
         yaml.dump(data, file_descriptor)
 
-#def dict_parser(data):
-
+def meta_flag_checker(meta_list):
+    for i in meta_list:
+        if meta_list[i] == True:
+            continue
+        else:
+            return 1
 
 print("Welcome to Flashfacts!")
 print("\n")
 filepath = input("What is the name of the card pack you wish to study? ")
 
-
+# loads user chosen yaml file in to dict
 data = yaml_loader(filepath)
 
-
+# creates lists that the yaml file will be sorted in to
 question_list = []
 ans_list = []
 
+# sorts questions and answers in to their own lists
 for values in data.values():
     ans_list.append(values)
 
 for items in data:
     question_list.append(items)
 
-# print(question_list)
-print(ans_list)
-x = 0
-#input(question_list[x])
+# allows randomization of both lists but they keep the same relative order
+zipped = list(zip(question_list, ans_list))
+random.shuffle(zipped)
+
+# unzip previous list
+rand_question, rand_answer = zip(*zipped)
+
+# list to hold flag that determines if an answer has been answered correctly.
+meta_list = []
 
 for i in range(len(question_list)):
-    answer = int(input(question_list[i]))
-    print(type(answer))
-    print(answer)
-    if answer == ans_list[i]:
-        print("correct")
-    else:
-        print("incorrect")
-        print(ans_list[i])
+    meta_list.append(False)
+
+flag = True
+while flag == True:
+    for i in range(len(question_list)):
+        if meta_list[i] == False:
+            answer = input(rand_question[i])
+            if answer == rand_answer[i]:
+                print("correct")
+                meta_list[i] = True
+            else:
+                print("incorrect")
+                print(rand_answer[i])
+        else:
+            continue
+    if meta_flag_checker(meta_list) != 1:
+        flag = False
