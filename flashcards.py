@@ -12,9 +12,7 @@ def yaml_dump(filepath, data): # Don't actually need this function
 
 def meta_flag_checker(meta_list):
     for i in meta_list:
-        if meta_list[i] == True:
-            continue
-        else:
+        if meta_list[i] == False:
             return 1
 
 print("Welcome to Flashfacts!")
@@ -44,12 +42,13 @@ rand_question, rand_answer = zip(*zipped)
 
 # list to hold flag that determines if an answer has been answered correctly.
 meta_list = []
-
+# sets all values in meta_list to False.
 for i in range(len(question_list)):
     meta_list.append(False)
 
+
 flag = True
-while flag == True:
+while flag:
     for i in range(len(question_list)):
         if meta_list[i] == False:
             answer = input(rand_question[i])
@@ -59,7 +58,9 @@ while flag == True:
             else:
                 print("incorrect")
                 print(rand_answer[i])
-        else:
-            continue
+                meta_list[i] = False
+    #i = 0
     if meta_flag_checker(meta_list) != 1:
         flag = False
+
+meta_list = []

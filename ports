@@ -1,0 +1,16 @@
+"Which port does FTP use? ": "21"
+"Which port does SSH use? ": "22"
+"Which port does Telnet use? ": "23"
+"Which port does SMTP use? ": "25"
+"Which port does DNS use? ": "53"
+"Which port does HTTP use? ": "80"
+"Which port does POP3 use? ": "110"
+#"Which port does NetBiOS/NetBT use? ": "137-139"
+#"Which port does IMAP use? ": "143"
+#"Which port does HTTPS use? ": "443"
+#"Which port does SLP use? ": "427"
+#"Which port does SMB/CIFS use? ": "445"
+#"Which port does AFP use? ": "548"
+#"Which port does RDP use? ": "3389"
+
+
