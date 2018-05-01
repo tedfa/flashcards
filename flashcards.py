@@ -11,7 +11,7 @@ def yaml_dump(filepath, data): # Don't actually need this function
         yaml.dump(data, file_descriptor)
 
 def meta_flag_checker(meta_list):
-    for i in meta_list:
+    for i in range(len(meta_list)):
         if meta_list[i] == False:
             return 1
 
