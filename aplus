@@ -13,7 +13,8 @@
 "Which port does SMB/CIFS use? ": "445"
 "Which port does SLP use? ": "427"
 "Which port does AFP use? ": "548"
-"Where can you find Linux error logs? ": "/var/log"
+# General/unsorted
+
 "How do you concatenate files in Windows cmd line? ": "type file1.txt file2.txt > filenew.txt"
 "What is the command to scan and repair Windows system files? ": "sfc /scannow"
 "What is the Windows command to check the hard disk for error and fix bad sectors? ": "chkdsk /f c:"
@@ -30,6 +31,7 @@
 "CPU speed is determined by the speed of the ? ": "motherboard and clock multiplier"
 "PROM is ______ and ______. ": "programmable write once"
 "Two examples of cpu extensions are? ": "virtualization and integrated graphics"
+"A system that can block any known OS exploit: ": "intrustion prevention system"
 #CPU Sockets
 "LGA stands for ____ and is associated with _____ processors. ": "land grid array Intel"
 "PGA stands for ____ and is associated with _____ processors. ": "pin grid array AMD"
@@ -45,3 +47,11 @@
 "What 2 file formats are commonly used in virtual printing? ": "xps and pdf"
 "What are 2 examples of network protocols designed to enable remote printing? ": "ipp and lpd/lpr"
 "What is the correct sequence of steps in laser printing? ": "processing, charging, exposing, developing, transferring, fusing, cleaning"
+"In laser printing, toner falling off of the printed copy indicates a problem with: ": "fusing unit"
+#Linux
+"Where can you find Linux error logs? ": "/var/log"
+"A Linux command-line command allowing a user to change his/her own password is known as: ": "passwd"
+"A Linux command-line command used for configuring network interface parameters specific to the wireless communication? ": "iwconfig"
+"What is the name of a Linux command-line utility used for reporting statistics on running processes? ": "ps"
+"What is the function of the Linux chmod command? ": "change file access permission"
+"What is the function of the Linux chown command? ": "change file owner and group permissions"

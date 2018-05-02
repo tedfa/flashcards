@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a97ee4d-7e52-4358-9298-145d1d1018db" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/flashcards.py" afterPath="$PROJECT_DIR$/flashcards.py" />
-      <change beforePath="$PROJECT_DIR$/ports" afterPath="$PROJECT_DIR$/ports" />
+      <change beforePath="$PROJECT_DIR$/aplus" afterPath="$PROJECT_DIR$/aplus" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="randtest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="randtest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/randtest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -36,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aplus" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aplus" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aplus">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="46" column="137" lean-forward="false" selection-start-line="46" selection-start-column="137" selection-end-line="46" selection-end-column="137" />
+            <state relative-caret-position="462">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,9 +71,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/randtest.py" />
-        <option value="$PROJECT_DIR$/aplus" />
         <option value="$PROJECT_DIR$/ports" />
         <option value="$PROJECT_DIR$/flashcards.py" />
+        <option value="$PROJECT_DIR$/aplus" />
       </list>
     </option>
   </component>
@@ -156,7 +155,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="970" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -262,14 +260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aplus">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="46" column="137" lean-forward="false" selection-start-line="46" selection-start-column="137" selection-end-line="46" selection-end-column="137" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flashcards.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -277,6 +267,14 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -288,10 +286,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/randtest.py">
+    <entry file="file://$PROJECT_DIR$/aplus">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="462">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
